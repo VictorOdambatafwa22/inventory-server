@@ -1,0 +1,81 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "staffID": 1010,
+      "staffName": "Rodgers",
+      "gender": "male",
+      "title": "sales agent",
+      "role": "Administrator",
+      "password": "222"
+      
+    },
+    {
+     "id": 2,
+      "staffID": 2020,
+      "staffName": "Kevin",
+      "gender": "male",
+      "title": "cashier",
+      "role": "user",
+      "password": "333"
+    },
+    {
+   "id": 3,
+      "staffID": 3030,
+      "staffName": "Mary",
+      "gender": "female",
+      "title": "cashier",
+      "role": "user",
+      "password": "444"
+    }
+  ],
+  
+  "products": [
+    {
+      "id": 1,
+      "productCode": 111111,
+      "pName": "Milk",
+      "price": "60",
+      "category": "Dairy",
+      "quantity": "1litre",
+      "Instock": "4",
+      "expiryDate": "2023-04-20"
+      
+    },
+    {
+  "id": 2,
+      "productCode": 222222,
+      "pName": "Pen",
+      "price": "20",
+      "category": "Stationery",
+      "quantity": "20grams",
+      "Instock": "100",
+      "expiryDate": ""
+    },
+    {
+ "id": 3,
+      "productCode": 333333,
+      "pName": "Beans",
+      "price": "100",
+      "category": "Cereal",
+      "quantity": "1kg",
+      "Instock": "50",
+      "expiryDate": ""
+    }
+  ]
+  ,
+  
+  "sales": [
+    {
+     "id": 1,
+      "productCode": 333333,
+      "pName": "Beans",
+      "price": "100",
+      "category": "Cereal",
+      "quantity": "1kg",
+      "unitsBought": "3",
+      "amount": "300",
+      
+    }
+  ]
+}
